@@ -65,9 +65,9 @@ form{display:flex;flex-wrap: wrap;}
     display: table-cell;
     text-align: center;
     vertical-align: middle;
- }.someclass {
+ } @media screen and (max-width:412px){.someclass {
     width: 200px;
-}
+     }}
 
  
  
