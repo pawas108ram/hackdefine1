@@ -68,7 +68,7 @@ form{display:flex;flex-wrap: wrap;}
  } @media screen and (max-width:412px){.someclass {
    
      display:block;
-     width: 300px !important;
+     width: 200px ;
      margin:auto;
      }}
 
