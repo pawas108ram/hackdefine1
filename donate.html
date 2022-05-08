@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/localstorage.js"></script>
+    <link rel="icon" href="img/Logo.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</head>
+<body><nav id="#top">
+        <div class="logo">
+            <a href="/index.html"><img class="logo-size" src="img/Logo.jpg" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/donate.html">DONATE/VOLUNTEER</a></li>
+
+            <li><a href="/about.html">ABOUT US</a></li>
+            <li><a href="#bottom">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div  text-align="center" id="parent" class="form">
+    <form  method="POST"class="light-bg flex" id="donate" name="google-sheet">
+        <fieldset class="center">
+           
+            <h1><u>Registeration Form</u></h1>
+            <label for="Organization">
+                Name of Organization / Individual:
+            </label>
+            <input class="center " type="text" id="Organization" name="org"
+                placeholder="Name of Organization / Individual" size="50" required />
+            <br><br>
+            <label for="firstname">
+                Firstname:
+            </label>
+            <input class="center" type="text" id="firstname" name="ftname" placeholder="Firstname" size="15"
+                required />
+            <br><br>
+            <label for="middlename">
+                Middlename:
+            </label>
+            <input class="center" type="text" id="middlename" name="mname" placeholder="Middlename" size="15"
+                required />
+            <br><br>
+            <label for="lastname">
+                Lastname:
+            </label>
+            <input class="center" type="text" id="lastname" name="ltname" placeholder="Lastname" size="15"
+                required />
+            <br><br>
+            <label for="Phone">
+                Phone:
+            </label>
+
+            <input class="center" type="text" id="Phone" name="phone" placeholder="phone no." size="10" /
+                required>
+            <br><br>
+            <label for="email">
+                Email:
+            </label>
+            <input class="center" type="text" id="email" placeholder="Enter Email" name="email" required>
+            <br><br>
+            <label for="psw">
+                Password:
+            </label>
+            <input class="center" type="password" placeholder="Create Password" name="psw" required>
+            <br><br>
+            <label for="address">
+                Enter Address:
+            </label>
+            <textarea class="center" id="address" rows="4" cols="50" name="address" form=""
+                placeholder="Enter Address for pickup.."></textarea><br><br>
+            <label for="id_proof">
+                Verification:
+            </label>
+            <select class="center" name="id_proof" id="id_proof">
+                <option value="def">Select Id Proof</option>
+                <option value="aadhar">Aadhar Card</option>
+                <option value="pass">Passport</option>
+                <option value="pan">Pan Card</option>
+                <option value="dl">Driving License</option>
+            </select>
+            <input class="center" type="file" id="img" name="img" accept="file/*"><br><br>
+             <div class="sr">
+            <button type="submit" value="submit">Submit</button>
+             
+            <button  type="reset" value="submit">Reset</button></div>
+        </fieldset>
+    </form>
+            
+</div>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted " id="#bottom" class="light-color">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>ONE FEED TWO
+            </h6>
+            <p>
+                When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">FOOD DELIVERY</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">FOOD PICKUP</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">CHARITY</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">DONATION</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="about.html" class="text-reset">HOW WE WORK</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">OUR CONTRIBUTORS</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">PROJECTS</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">HELP</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> New Delhi, 110092 </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 91 999999999999</p>
+            <p><i class="fas fa-print me-3"></i> + 91 999999999999</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="#top">ONE FEED TWO</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmPI4Ydd6s7SG5V7uv0gNlI1hzqOsHQwwB0xM6Dhbs-VslnqFt2EKo3MVEnBLzV5g9/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
