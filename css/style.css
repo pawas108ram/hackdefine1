@@ -66,7 +66,10 @@ form{display:flex;flex-wrap: wrap;}
     text-align: center;
     vertical-align: middle;
  } @media screen and (max-width:412px){.someclass {
-    width: 300px !important;
+   
+     display:block;
+     width: 300px !important;
+     margin:auto;
      }}
 
  
